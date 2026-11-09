@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Booking - Joesal's Cricket World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CRICKET TICKET BOOKING</h1>
+        <p>Book Your Match Tickets</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="players.html">Players</a>
+        <a href="rules.html">Rules</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="legends.html">Legends</a>
+    </nav>
+
+    <main>
+        <h2>BOOK YOUR TICKET</h2>
+
+        <form action="#" method="get">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile"
+                   placeholder="Enter 10 digit number"
+                   pattern="[0-9]{10}" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="match">Select Match:</label>
+            <select id="match" name="match" required>
+                <option value="">Choose a match</option>
+                <option>India vs Australia</option>
+                <option>India vs England</option>
+                <option>India vs South Africa</option>
+                <option>India vs New Zealand</option>
+            </select>
+
+            <label for="date">Match Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="seat">Seat Type:</label>
+            <select id="seat" name="seat" required>
+                <option value="">Choose seat type</option>
+                <option>General</option>
+                <option>Premium</option>
+                <option>VIP</option>
+            </select>
+
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets"
+                   min="1" max="10" value="1" required>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="">Choose payment method</option>
+                <option>UPI</option>
+                <option>Debit Card</option>
+                <option>Credit Card</option>
+                <option>Net Banking</option>
+            </select>
+
+            <div class="form-buttons">
+                <button type="submit">Book Ticket</button>
+                <button type="reset">Clear</button>
+            </div>
+
+        </form>
+
+        <p class="back-link"><a href="index.html">Back to Homepage</a></p>
+    </main>
+
+</body>
+</html>
