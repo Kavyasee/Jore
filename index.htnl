@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cricket Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Cricket Gallery</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="players.html">Players</a>
+    <a href="rules.html">Rules</a>
+    <a href="legends.html">Legends</a>
+    <a href="booking.html">Book Tickets</a>
+</nav>
+
+<main>
+    <h2>Cricket Pictures</h2>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600" alt="Cricket ground">
+
+        <img src="https://images.unsplash.com/photo-1593766827228-8737b1cd147e?w=600" alt="Cricket match">
+
+        <img src="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=600" alt="Cricket ball">
+
+        <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=600" alt="Cricket stadium">
+    </div>
+
+    <a class="back" href="index.html">Back to Homepage</a>
+</main>
+
+<footer>Joesal's Cricket World</footer>
+
+</body>
+</html>
